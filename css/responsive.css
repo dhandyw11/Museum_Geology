@@ -1,0 +1,74 @@
+/* Resolusi Tablet */
+@media all and (max-width: 888px) {
+  .explore {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b0/Museum_Geologi_-_Bandung%2C_Indonesia_-_panoramio.jpg);
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .col img{
+    width: 70%;
+  }
+
+}
+
+/* Resolusi Smartphone */
+@media all and (max-width: 720px) {
+  .explore p {
+    display: none;
+  }
+
+  .facilities p {
+    display: none;
+  }
+
+  .content-col a{
+    margin-left: 10px;
+  }
+
+  nav ul{
+    width: 100%;
+    background: linear-gradient(#ff54a2, #ff575a);
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+
+  nav ul li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a{
+    color: white;
+  }
+
+  .main-menu{
+    display: block;
+    width: 45px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+  }
+
+  .active{
+    display: none;
+  }
+
+  .menu:hover{
+    color:black;
+  }
+
+  .col img{
+    width: 70%;
+  }
+
+  .col p{
+    display: none;
+  }
+  
+}
